@@ -1,0 +1,26 @@
+1. Cuales son las diferencias entre estos dos conjuntos de instrucciones?
+A) X =1
+B) X=3
+
+2. Escribe un programa que lea dos números enteros y que diga si el primero es divisible por el segundo o no.
+
+N1 mod n2 = 0
+
+3. Escribe un programa que lea 3 números enteros y que diga cual es el máximo y cual el mínimo, con el menor número de comparaciones posible.
+
+Dim text
+Text.equals(“a”) or
+
+4. Escribe un programa que lea un carácter y diga si corresponde a una vocal o consonante. Si no es ni vocal ni consonante devuelve un mensaje de error.
+
+5. Escribe un programa, que a partir del valor numérico de la nota de un alumno y utilizando el menor numero de comparaciones posible, escribe un carácter que codifique la nota que saldrá en el acta según la siguiente tabla:
+
+6. Escribe un programa que lea un numero entre 1 y 7 y utilizando la estructura condicional  switch/case, escribe el nombre del día de la semana correspondiente. Es decir, si introduce un 1 tiene que escribir Lunes, si introduce un 2, martes etc…
+
+7. Convertir la estructura switch/case del ejercicio anterior a una estructura equivalente utilizando if/else.
+
+8. Suponiendo que la variable nota solo puede coger valores enteros, convertir la estructura siguiente en otra equivalente utilizando la instrucción switch/case.
+
+9. Escribir un programa que lea el numero de un mes (entre 1 y 12) y de un año y que indique el numero de días que tiene mas. Recordad que el mes de febrero tiene 29 días si el año es divisible por 4, menos cuando también es divisible por 100 pero no por 400. Así que el mes de febrero de 1900 tuvo 28 días pero el del año 2000 tuvo 29.
+
+10. Cual es el error del siguiente trozo de código? Como se podría corregir?

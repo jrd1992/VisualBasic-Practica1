@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{42B44B8D-7D44-4EC3-9996-E27A56AA858D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
-    <RootNamespace>WindowsApplication1</RootNamespace>
-    <AssemblyName>Practica1</AssemblyName>
+    <StartupObject>VisualBasicPractica1.My.MyApplication</StartupObject>
+    <RootNamespace>VisualBasicPractica1</RootNamespace>
+    <AssemblyName>VisualBasicPractica1</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Practica1.xml</DocumentationFile>
+    <DocumentationFile>VisualBasicPractica1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Practica1.xml</DocumentationFile>
+    <DocumentationFile>VisualBasicPractica1.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,6 +72,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="6-SwitchCase-To-IfElse.Designer.vb">
+      <DependentUpon>6-SwitchCase-To-IfElse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="6-SwitchCase-To-IfElse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5-SwitchCase.Designer.vb">
+      <DependentUpon>5-SwitchCase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5-SwitchCase.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="1-NumeroDivisible.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +153,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Preguntas.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
